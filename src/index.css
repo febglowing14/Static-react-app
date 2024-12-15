@@ -1,0 +1,27 @@
+body{
+  padding:20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: #272727;
+  color: white;
+}
+h1{
+  margin-top: 30px;
+}
+h2{
+ color:rgb(135, 213, 235);
+}
+header{
+  background-color: #272727;
+  display: flex;
+}
+fact-list >li::marker{
+  color: #95ff00;
+}
+
+main {
+  background-image: url(reactimg.png);
+  background-repeat: no-repeat;
+  background-position: right center; /* Centered vertically */
+  background-size: contain; /* Ensures the image fits */
+  height: 50% ; /* Adjust as per design */
+}
